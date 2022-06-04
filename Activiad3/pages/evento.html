@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="/assets/css/style1.css" />
+
+        <title>Evento</title>
+    </head>
+    <body>
+        <div class="conten">
+            <nav>
+                <ul class="menu">
+                    <li><a href="/index.html">Inicio</a></li>
+                    <li><a href="/pages/biografia.html">Biografia</a></li>
+                    <li><a href="/pages/curriculum.html">Curriculum</a></li>
+                </ul>
+            </nav>
+            <div>
+                <a href="/pages/sesion.html"><img  id="inicio" src="/assets/img/inicio.png" alt="" /></a>
+            </div>
+        </div>
+        <!-- header+main -->
+        <header id="tit">
+            <h1>Registro del evento DEMO</h1>
+            <p>Llene los siguientes datos para registrarse al evento</p>
+        </header>
+        <main id="eventos">
+            <p>
+                Fecha<br />
+                24 de abril 2010 a 10:15 AM <br />
+
+                Dirección <br />
+                calle 88 #578 x92a y 94
+            </p>
+            <!-- div.mapa>iframe -->
+
+            <dvi class="mapa"
+                ><iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7451.8123407580115!2d-89.65284517699034!3d20.956282894150643!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f5673b4092109c9%3A0x35ba767b69981fb4!2zU2FtYnVsw6EsIDk3MjUwIE3DqXJpZGEsIFl1Yy4!5e0!3m2!1ses!2smx!4v1654175278622!5m2!1ses!2smx"
+                    width="600"
+                    height="450"
+                    style="border: 0"
+                    allowfullscreen=""
+                    loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"
+                ></iframe
+            ></dvi>
+
+            <div>
+                Nombre completo*<br />
+                <div id="evento">
+                    <!-- Div.nombre -->
+
+                    <div class="nombre">
+                        <input
+                            type="text"
+                            name="nombre"
+                            id="nombre"
+                            placeholder="Nombre"
+                        /><br />
+                        <label for="nombre">Nombre</label>
+                    </div>
+                    <!-- Div.nombre -->
+
+                    <div class="nombre">
+                        <input
+                            type="text"
+                            name="apellido"
+                            id="apellido"
+                            placeholder="Apellido"
+                        /><br />
+                        <label for="apellido">Apellido</label>
+                    </div>
+                </div>
+                <button>Enviar</button>
+            </div>
+        </main>
+    </body>
+</html>

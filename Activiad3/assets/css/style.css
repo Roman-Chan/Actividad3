@@ -1,0 +1,103 @@
+body {
+    background-color: #8696b0;
+}
+
+
+main {
+    width: 1000px;
+    margin: auto;
+}
+
+header {
+    text-align: center;
+}
+h2 {
+    background-color: #c3bdbd;
+    height: 100%;
+    color: brown;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: auto;
+    padding: 10px;
+}
+section {
+    height: 100px;
+    background-color: #d9d9d9;
+    margin: auto;
+    padding: 10px;
+}
+#datos {
+    display: grid;
+    grid-template-areas:
+        "imagen titulo"
+        "imagen contenedor";
+    grid-template-columns: 300px 1fr;
+    grid-template-rows: 60px 220px;
+    gap: 8px;
+    background-color: #8696b0;
+    padding: 0px;
+    margin-bottom: 4px;
+    height: 300px;
+}
+.titulo {
+    grid-area: titulo;
+    width: auto;
+    height: 40px;
+    margin: 0;
+}
+.info {
+    grid-area: contenedor;
+    width: 98%;
+    height: 100%;
+    padding: 5px;
+    padding-left: 10px;
+    background-color: #d9d9d9;
+}
+#imag
+{
+    grid-area: imagen;
+    width: 300px;
+    height: 300px;
+}
+
+#inicio
+{
+    border-radius: 200px;
+    width: 80px;
+    height: 80px;
+}
+.menu
+{
+    display: flex;
+    margin: auto;
+}
+nav ul
+{
+    display: flex;
+    list-style: none;
+    gap: 5px;
+}
+nav ul li a
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 80px;   
+    text-decoration: none;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+nav ul li a:hover {
+    background-color: blue;
+}
+.conten
+{
+    margin: auto;
+    padding: 0% 30px;
+    display: flex;
+    width: 80%;
+    height: 80px;
+    gap: 500px;
+    background-color: black;
+}

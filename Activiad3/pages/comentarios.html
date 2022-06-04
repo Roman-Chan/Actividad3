@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="/assets/css/login.css" />
+        <title>Comentarios</title>
+    </head>
+    <body>
+        <header>
+            <h1>Comentarios</h1>
+        </header>
+
+        <main>
+            <form>
+                <div>
+                    <textarea
+                        name="comentarios"
+                        rows="10"
+                        cols="40"
+                        placeholder="Ingresa tu comentario"
+                        required
+                    ></textarea>
+                </div>
+                <br />
+                <div>
+                    <label for="nombre">Nombre</label>
+                    <input type="text" name="nombre" id="nombre" required />
+                </div>
+                <br />
+                <div>
+                    <label for="correo">Correo electronico</label>
+                    <input type="email" name="corre" id="corre" required />
+                </div>
+
+                <br />
+                <div id="bot"><button><a href="/pages/biografia.html">Enviar</a></button></div>
+            </form>
+        </main>
+    </body>
+</html>
